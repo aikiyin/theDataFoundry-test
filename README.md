@@ -4,7 +4,10 @@ This repo provides a Terraform based framework to create a lambda function in aw
 # lambda base module
 The lambda base module provides a base for any new lambda functions to be created. It includes a python dependency installing step, which uses pipenv. 
 
-To create a new lambda function, create a new folder containing a Pipfile, even though no extra libraries are required.
+To create a new lambda function, create a new folder containing a Pipfile, even though no extra libraries are required. 
+
+# lambda_weather-api-data-ingestor.tf
+pass function name; set up Event rule at fix rate of 1 hour; attach s3 to lambda.
 
 # provider.tf 
 provider.tf specifies all providers resource required for this repo (terraform / AWS / archive)
