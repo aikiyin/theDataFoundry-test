@@ -1,5 +1,5 @@
 # weather api data ingestor lambda
-This repo provides a Terraform based framework to create a lambda function in aws to ingest weather data from: https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=en
+This repo provides a Terraform based framework to create a lambda function in aws to ingest weather data from URL: https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=en
 
 # lambda base module
 The lambda base module provides a base for any new lambda functions to be created. It includes a python dependency installing step, which uses pipenv. 
