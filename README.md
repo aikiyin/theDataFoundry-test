@@ -17,6 +17,7 @@ provider.tf specifies all providers resource required for this repo (terraform /
 2. The data extracted is stored as json format in s3 using json.loads / json.dump
 3. The data landing in s3 is partitioned by year, month, day
 
-# Data Source
+# data source
 https://data.weather.gov.hk/weatherAPI/doc/HKO_Open_Data_API_Documentation.pdf
+
 https://data.gov.hk/en-data/dataset/hk-hko-rss-current-weather-report/resource/a8257822-c69a-4984-acda-a04895df4de4
